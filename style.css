@@ -1,21 +1,44 @@
-.test {
-	color: blueviolet;
+* {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+	margin: 0;
 }
 
 header {
 	background-color: black;
+	display: flex;
+	justify-content: space-between;
 }
-header img {
-	
 
-	height: 50px
-
+.toplinks{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: nowrap;
 }
 
 h1{
-	color: aliceblue;
-	left: ;
+	font-size: 64px;
+	margin: 20px 0 20px 20px;
 }
+
+.logo{
+	height: 50px;
+	margin: 20px 0 0 20px;
+}
+
+.link {
+	color: white;
+	margin: 0 20px 0 20px;
+}
+
+main {
+	padding: 10px;
+}
+
 img:hover {
 	opacity: 0.5;
 	transition: 0.1s linear;
