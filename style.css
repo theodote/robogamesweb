@@ -30,6 +30,11 @@ h1{
 	margin: 20px 0 0 20px;
 }
 
+.example{
+	margin: 100px;
+	width: 50%;
+}
+
 .link {
 	color: white;
 	margin: 0 20px 0 20px;
