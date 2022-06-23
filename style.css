@@ -2,6 +2,20 @@
 	color: blueviolet;
 }
 
+header {
+	background-color: black;
+}
+header img {
+	
+
+	height: 50px
+
+}
+
+h1{
+	color: aliceblue;
+	left: ;
+}
 img:hover {
 	opacity: 0.5;
 	transition: 0.1s linear;
