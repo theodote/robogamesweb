@@ -3,6 +3,7 @@
 }
 
 body {
+	background-image: url(files/фон.jpg);
 	margin: 0;
 	background-color: #CAFFF7;
 }
@@ -19,6 +20,19 @@ header {
 	align-items: center;
 	flex-direction: row;
 	flex-wrap: nowrap;
+}
+aside{
+	width: 200px;
+}
+
+aside{
+	position: absolute;
+	right: 0;
+	top: 200px;
+	width: 400px;
+}
+h3{
+	
 }
 
 h1{
