@@ -70,6 +70,11 @@ img:hover {
 	transition: 0.1s linear;
 }
 
+
+li{
+	border-radius:5px solid red;
+}
+
 /* а в CSS комментарии обозначаются вот так! */
 /* Сейчас этот файл (style.css) связан только */
 /* с index.html - потом надо будет его прикреплять */
