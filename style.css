@@ -14,6 +14,12 @@ header {
 	justify-content: space-between;
 }
 
+footer {
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+}
+
 .toplinks{
 	display: flex;
 	justify-content: flex-end;
@@ -104,17 +110,25 @@ h2.t {
 
 h1 {
 	text-align: center;
-	text-shadow: 3px 3px 2px black;
+	text-shadow: 3px 3px 2px #115b64;
 }
 
 h2 {
 	text-align: center;
-	text-shadow: 2px 2px 2px black;
+	text-shadow: 2px 2px 2px #115b64;
 }
 
 li {
 	text-shadow: 2px 2px 3px #5ABBA5;
 	font-weight: bold;
+}
+
+p.contacts {
+	color: white;
+}
+
+p.contacts a {
+	color: white;
 }
 
 /* а в CSS комментарии обозначаются вот так! */
